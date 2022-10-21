@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Efishery/static/css/main.9729af37.css",
+    "main.js": "/Efishery/static/js/main.dc2116db.js",
+    "static/js/787.52450f43.chunk.js": "/Efishery/static/js/787.52450f43.chunk.js",
+    "index.html": "/Efishery/index.html",
+    "main.9729af37.css.map": "/Efishery/static/css/main.9729af37.css.map",
+    "main.dc2116db.js.map": "/Efishery/static/js/main.dc2116db.js.map",
+    "787.52450f43.chunk.js.map": "/Efishery/static/js/787.52450f43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9729af37.css",
+    "static/js/main.dc2116db.js"
+  ]
+}
