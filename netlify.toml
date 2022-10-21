@@ -1,4 +1,7 @@
-[[redirects]]
-  from = "/*"
-  to = "/"
-  status = 200
+[build]
+  publish = "public"
+  command = "CI= npm run build"
+  functions = "lambda"
+[build.environment]
+  YARN_VERSION = "1.9.4"
+  YARN_FLAGS = "--no-ignore-optional"
