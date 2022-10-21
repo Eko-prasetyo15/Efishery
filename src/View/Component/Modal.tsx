@@ -1,8 +1,6 @@
 import React, { useReducer, useState } from 'react'
 import { AreaCode, Sizes } from '../Home/type'
 import Form from './Form'
-import { useDispatch } from 'react-redux'
-import { postFishedList } from '../../Action'
 
 interface IModal {
     listArea: AreaCode;
@@ -10,7 +8,6 @@ interface IModal {
     isLoading: boolean;
 }
 const ModalAdd: React.FC<IModal> = ({ listArea, listSize, isLoading }) => {
-    const dispatch = useDispatch()
     const [inputValues, setInputValues] = useReducer(
         (state: any, newState: any) => ({ ...state, ...newState }),
         {

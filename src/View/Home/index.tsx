@@ -20,7 +20,7 @@ const Home: React.FC<any> = () => {
         dispatch<any>(getList(search))
         dispatch<any>(getListArea())
         dispatch<any>(getListSize())
-    }, [search])
+    },[search, dispatch])
 
     const renderComp = () => {
         if (listData.length > 0) {
